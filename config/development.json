@@ -1,0 +1,126 @@
+{
+  "port"    : 4014,
+  "httpPort": 4044,
+
+  "sslKey"         : "uva.key",
+  "sslCertificate" : "uva.crt",
+
+  "newRelicEnabled"    : 0,
+
+  "newRelicIdentifier" : "Auth",
+
+  "newRelicLicenseKey" : "",
+
+  "databaseSettings"   : {
+    "host"    : "devdb.uvadashboard.com",
+    "user"    : "uva",
+    "password": "haomee9ahquoM6ai",
+    "database": "jugnoo_auth"
+  },
+
+  "dbPoolSettings"   : {
+    "host"    : "devdb.uvadashboard.com",
+    "user"    : "uva",
+    "password": "haomee9ahquoM6ai",
+    "database": "jugnoo_auth",
+    "connectionLimit" : 10
+  },
+
+  "dbLogsPoolSettings"  : {
+    "host"      : "devdb.uvadashboard.com",
+    "user"      : "uva",
+    "password"  : "haomee9ahquoM6ai",
+    "database"  : "jugnoo_live_logs",
+    "connectionLimit" : 10
+  },
+
+  "dbCredentialsPoolSettings" : {
+    "host"      : "devdb.uvadashboard.com",
+    "user"      : "uva",
+    "password"  : "haomee9ahquoM6ai",
+    "database"  : "jugnoo_creds",
+    "connectionLimit" : 10
+  },
+
+  "redisSettings"   : {
+    "host"    : "uvadashboard.com",
+    "port"    : 6379
+  },
+
+  "oneRingNumber" : "",
+
+  "forgotPasswordLink" : "",
+
+  "forgotPasswordLinkDodo"  : "",
+  "forgotPasswordLinkDodoOperators": "",
+
+  "selfAddress" : "https://dev.uvadashboard.com:4014/",
+
+  "unsubscribeLink"  : "",
+
+  "fatafatAddress" : "",
+
+  "addCouponAddress" : "https://dev.uvadashboard.com:4012/add_coupons",
+
+  "unlinkUserEmailLink" : "",
+
+  "freshDeskTicketLink" : "",
+
+  "payuSuffix"  : "test_",
+  
+  "fetchRecentAddressesFromStores"   : "",
+
+  "freshDeskTicketRoute" : "NA",
+
+  "analyticsUrl" : "https://dev.uvadashboard.com:8020/add_city",
+
+  "superAdminPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "cashApiPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "whitelistAdminPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "couponPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "autosIncomingPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "promotionalGiftPassword" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "CIPHER_PASSWORD" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+  "sharedSecrets" : {
+    "autos" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "fresh" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "meals" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "dodo" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "grocery" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "pay" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "menus" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "star" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "anywhere" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "pros" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "invoicing" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "deliveryCustomer" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "pod" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "rapid" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "ridePass" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "driverSubscription" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "shuttle" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "carpool" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB",
+    "jugnooAddMoneyToWallet" : "gJJi0mlw2iVU5Syu58ImglbNYm0tJKyB"
+  },
+  "clientUrls" : {
+    "autos" : "https://dev.uvadashboard.com:4012",
+    "fresh" : "",
+    "meals" : "",
+    "dodo" : "",
+    "grocery" : "",
+    "pay" : "",
+    "menus" : "",
+    "star" : "",
+    "anywhere" : "",
+    "pros" : "",
+    "invoicing" : "",
+    "deliveryCustomer" : "",
+    "pod" : "",
+    "rapid" : "",
+    "ridePass" : "",
+    "driverSubscription" : "",
+    "shuttle" : "",
+    "carpool" : "",
+    "jugnooAddMoneyToWallet" : ""
+  }
+}
