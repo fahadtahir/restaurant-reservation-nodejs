@@ -2,12 +2,9 @@
 
 Restaurant Reservation APIs.
 
+Postman Collection link (import)**: https://www.getpostman.com/collections/82394d3d16385781f4b2
 
-
-**Postman Collection link (import)**: https://www.getpostman.com/collections/82394d3d16385781f4b2
-
-
-The DB is hosted on AWS so need to setup. Connection is hard coded in string.
+**AWS DB is expired, so need to create a new one and edit the connection string accordingly**
 
 Prepopulated with an admin user : empNo:"0001", "password":fahad1994.
 
@@ -37,7 +34,7 @@ Get tables.
 Get available time slots.
 
 
-**Things to be done (if more time allowed):**
+**Things to be done:**
 
 
 Make/Delete a reservation
