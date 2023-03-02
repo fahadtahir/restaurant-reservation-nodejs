@@ -2,9 +2,9 @@
 
 Restaurant Reservation APIs.
 
-Postman Collection link (import)**: https://www.getpostman.com/collections/82394d3d16385781f4b2
+Postman Collection link (import): https://www.getpostman.com/collections/82394d3d16385781f4b2
 
-**AWS DB is expired, so need to create a new one and edit the connection string accordingly**
+**Postgresql DB is expired (AWS), so you need to create a new one and edit the connection string accordingly**
 
 Prepopulated with an admin user : empNo:"0001", "password":fahad1994.
 
