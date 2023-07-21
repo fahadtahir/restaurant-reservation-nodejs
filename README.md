@@ -1,6 +1,6 @@
-# restaurant-reservation-sary
+# Restaurant Management System
 
-Restaurant Reservation APIs.
+Backend system developed using Node.js + Postgresql for managing restaurants.
 
 Postman Collection link (import): https://www.getpostman.com/collections/82394d3d16385781f4b2
 
